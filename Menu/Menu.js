@@ -45,7 +45,7 @@ function menuComponent(params) {
   li.textContent = items
   return ul.append(li);
  });
- //Menu append to ul
+ //Menu appended to ul
  menu.appendChild(ul);
 // Set class name to menu
 menu.classList.add('menu');
